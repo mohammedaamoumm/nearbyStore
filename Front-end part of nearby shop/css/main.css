@@ -1,0 +1,131 @@
+/*-----------------------------------------------------------
+Full-stack coding challenge - Mohammed aamoum
+-----------------------------------------------------------*/
+/*-- General Styles --*/
+body{
+	font-family: 'Lato';
+	color: #111111;
+	position: relative;
+
+}
+
+/*-----------------------------------------------------------
+ Header
+-----------------------------------------------------------*/
+ #home .container{
+	  
+		 text-align:right;
+		 padding-top: 25px;
+		 margin-bottom: 36px !important;
+}
+
+
+
+#home .nearbysh {
+	text-decoration:none !important;
+}
+
+#home a.preferredShop {
+	text-decoration:none !important;
+}
+
+ #home .container a{
+	  
+		 margin-right:21px;
+		 color:blue;
+		 font-style:italic;
+		 text-decoration:underline;
+		 font-style:"Time News Roman";
+		 font-weight:bold;
+}
+
+#home .nearbysh:active {
+	text-decoration:none !important;
+}
+
+#home .preferredShop:active {
+	text-decoration:none !important;
+}
+
+#home .nearbysh:link {
+	text-decoration:none !important;
+}
+
+#home .preferredShop:link {
+	text-decoration:none !important;
+}
+
+ #home .container a.nearbysh{
+	  
+		 margin-right:21px;
+		 color:blue;
+		 font-style:italic;
+		
+
+}
+
+
+ 
+
+/*-----------------------------------------------------------
+ nearby Shop
+-----------------------------------------------------------*/
+#NearbyShops .row1 {
+	margin-bottom:40px;
+}
+#NearbyShops .containerOfShopBox {
+	border: 3px solid #000 !important;
+	padding-bottom: 10px;
+	 overflow-wrap: break-word;
+	
+}
+
+#NearbyShops .imageShop {
+	border: 3px solid #000 !important;
+    margin-bottom: 10px !important;
+}
+
+#NearbyShops .buttonLikeDislike .Dislike {
+	margin-right:10px;
+}
+/*-----------------------------------------------------------
+8. Footer
+-----------------------------------------------------------*/
+#footer{
+	color: #fff;
+	padding: 50px 0;
+}
+
+
+
+.copyrights{
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	font-size: 12px;
+	padding: 5px 0;
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+
+/*-----------------------------------------------------------
+9. Bootstrap Media Queries
+-----------------------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 970px) and (max-width: 1170px) { 
+	
+
+
+
+}
+
+@media (max-width: 750px) {
+
+#NearbyShops .containerOfShopBox {
+	margin-bottom:40px;
+}
+
+}
