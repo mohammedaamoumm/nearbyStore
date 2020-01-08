@@ -1,1 +1,1 @@
-# Nearby Store
+# Nearby Store web application
