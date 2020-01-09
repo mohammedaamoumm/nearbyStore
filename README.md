@@ -1,4 +1,4 @@
-# Nearby Store web application
+# Nearby shop web application
 ## Features : 
 
 Nearby shop is a web application that lists shops nearby.
